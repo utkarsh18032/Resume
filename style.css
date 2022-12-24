@@ -1,0 +1,87 @@
+.container{
+    background:gray;
+    margin-top: 1%;
+}
+.row{
+    background:greenyellow;
+}
+h2,h3{
+    text-align: center;
+}
+h2{
+    color: whitesmoke;
+}
+#first-row,#second-row{
+padding: 1%;
+ 
+    
+}
+#social-links{
+    /* background:#2F4F4F; */
+    background-color:#0C2340;
+}
+img{
+   margin-top:7%;
+    height:33vh;
+    border:2px solid orange;
+    border-radius:52%;
+}
+#heading1,#heading2{
+background-color: whitesmoke;
+}
+
+
+
+
+
+.card{
+background-color:hsl(220, 61%, 19%);
+width:97%;
+
+}
+.card a{
+    color:white;
+    margin: 2px;
+   
+    
+}
+.card img{
+    height:20px;
+   vertical-align: 1px; 
+}
+.face{
+  border-radius: 1px solid blue;
+   
+   background-position: center center;
+    transition: transform 1s ease-in-out;
+}
+.face--front{
+    background-color:royalblue;
+
+    padding-left: 6px;
+}
+.face--back{
+    color:whitesmoke;
+    text-transform: capitalize;
+    display: none;
+    transform: rotateX(90deg);
+    
+}
+.card:hover .face--front{
+    transform: rotateX(90deg);
+    background-color:royalblue;
+}
+.card:hover .face--back{
+    transform: rotateX(0deg);
+  display: contents;
+  background-color:white;
+}
+/*skill set and educational qualification*/
+#skill-info{
+    background-color:#0C2340;
+    color:white;
+}
+#skill-info a{
+color:#0C2340;
+
+}
