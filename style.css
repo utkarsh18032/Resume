@@ -1,6 +1,11 @@
 .container{
     background:gray;
     margin-top: 1%;
+    border: 2px solid black;
+}
+.u-img{
+  
+  
 }
 .row{
     background:greenyellow;
